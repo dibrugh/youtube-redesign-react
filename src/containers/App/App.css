@@ -1,0 +1,11 @@
+html {
+	font-family: "Mulish", "sans-serif";
+}
+
+.main {
+	display: flex;
+}
+
+img {
+	cursor: pointer;
+}

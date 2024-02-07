@@ -1,0 +1,50 @@
+.sidebar__container {
+	padding: 32px 70px 0 0;
+}
+.sidebar__header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sidebar__title {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.sidebar__toggle {
+	display: flex;
+	align-items: center;
+}
+
+.sidebar__toggle p {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.video__img {
+	transition: ease 0.2s;
+}
+
+.video__img:hover {
+	scale: 1.2;
+}
+
+.videos__list_item {
+    padding-top: 25px;
+}
+
+.video__title {
+	font-size: 26px;
+	font-weight: 700;
+    padding-top: 13px;
+    margin-bottom: 11px;
+}
+
+.additional {
+	display: flex;
+	justify-content: space-between;
+	color: rgb(194, 194, 194);
+	font-size: 18px;
+	font-weight: 400;
+}
