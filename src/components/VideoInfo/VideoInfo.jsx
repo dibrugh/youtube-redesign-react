@@ -24,6 +24,7 @@ function VideoInfo() {
 				</div>
 			</div>
 			<button className="video__additional_sub">Subscribe 2.3m</button>
+			<button className="video__additional_sub-hidden">Subscribe</button>
 		</div>
 	);
 }

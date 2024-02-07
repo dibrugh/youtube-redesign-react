@@ -95,7 +95,6 @@
 	opacity: 0.5;
 }
 
-
 .btns__item img {
 	margin-right: 8px;
 }
@@ -115,4 +114,174 @@
 	height: 1px;
 	background: rgba(216, 216, 216, 0.5);
 	width: 100%;
+}
+
+.mobile__arrow {
+	display: none;
+}
+
+@media (max-width: 1200px) {
+	.controls img {
+		width: 50%;
+		height: 50%;
+	}
+	.timestamps__text {
+		margin-bottom: 10px;
+	}
+	.controls__left img {
+		margin-right: 20px;
+	}
+	.controls__right img {
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 876px) {
+	.main {
+		flex-direction: column;
+	}
+
+	.player__container,
+	.sidebar__container {
+		padding: 30px 40px;
+	}
+	.video__additional {
+		padding: 38px 40px;
+	}
+	.desc__text_content,
+	.desc__text_more {
+		display: none;
+	}
+
+	.desc__text_pub {
+		margin-bottom: 0;
+	}
+
+	.video__additional,
+	.video__additional_desc {
+		align-items: center;
+	}
+
+	.video__img {
+		width: 100%;
+	}
+
+	.player__info_additional {
+		flex-direction: column;
+	}
+
+	.player__info_additional-views {
+		margin-bottom: 10px;
+	}
+
+	.player__info_container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.mobile__arrow {
+		display: block;
+	}
+}
+
+@media (max-width: 876px) {
+	.player__container,
+	.sidebar__container {
+		padding: 10px 20px;
+	}
+
+	.btns__item_more {
+		display: none;
+	}
+}
+
+@media (max-width: 580px) {
+	.player__container {
+		padding: 10px 0;
+	}
+	.player__info {
+		padding: 0 15px;
+	}
+	.btns__item:first-child {
+		margin: 0;
+	}
+	.btns__item {
+		padding: 10px 10px;
+	}
+	.player__info {
+		width: 100%;
+	}
+	.player__info_title {
+		font-size: 20px;
+	}
+
+	.player__info_additional-views {
+		font-size: 12px;
+	}
+
+	.desc__logo {
+		width: 30%;
+	}
+
+	.mobile__arrow {
+		align-self: start;
+	}
+
+	.sidebar__title {
+		font-size: 20px;
+	}
+
+	.sidebar__toggle p {
+		font-size: 10px;
+	}
+
+	.video__title {
+		font-size: 16px;
+	}
+
+	.additional p {
+		font-size: 13px;
+	}
+
+	/* Mobile player controls */
+	.mobile__controls {
+		display: flex;
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		right: 0;
+		border-radius: 10px;
+		background: rgba(61, 61, 61, 0.6);
+		padding: 9px 18px;
+		margin: 0 6px;
+	}
+
+	.mobile__timestamps {
+		display: flex;
+		justify-content: center;
+	}
+
+	.mobile__timestamps p {
+		font-size: 10px;
+		color: #fff;
+	}
+
+	.mobile__timestamp_current {
+		margin-right: 6px;
+	}
+
+	.mobile__timestamp_total {
+		margin-left: 6px;
+	}
+
+	.mobile__timestamps img {
+		width: 60%;
+	}
+
+	.mobile__controls_left img {
+		margin-right: 9px;
+	}
+	.mobile__controls_right img {
+		margin-left: 9px;
+	}
 }
