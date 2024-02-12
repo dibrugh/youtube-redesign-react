@@ -2,10 +2,35 @@ html {
 	font-family: "Mulish", "sans-serif";
 }
 
+.App {
+	padding: 20px 40px;
+}
+
 .main {
 	display: flex;
+	padding-top: 20px;
+}
+
+.main__left {
+	width: 70vw;
 }
 
 img {
 	cursor: pointer;
+}
+
+@media (max-width: 876px) {
+	.main {
+		align-items: center;
+	}
+
+	.main__left {
+		width: 100%;
+	}
+}
+
+@media (max-width: 580px) {
+	.App{
+		padding: 20px;
+	}
 }

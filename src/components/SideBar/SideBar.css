@@ -1,5 +1,5 @@
 .sidebar__container {
-	padding: 32px 70px 0 0;
+	width: 30vw;
 }
 .sidebar__header {
 	display: flex;
@@ -23,22 +23,21 @@
 }
 
 .video__img {
+	max-width: 100%;
 	transition: ease 0.2s;
 }
 
-.video__img:hover {
-	scale: 1.2;
-}
-
 .videos__list_item {
-    padding-top: 25px;
+	padding-top: 25px;
+	display: flex;
+    flex-direction: column;
 }
 
 .video__title {
 	font-size: 26px;
 	font-weight: 700;
-    padding-top: 13px;
-    margin-bottom: 11px;
+	padding-top: 13px;
+	margin-bottom: 11px;
 }
 
 .additional {
@@ -47,4 +46,34 @@
 	color: rgb(194, 194, 194);
 	font-size: 18px;
 	font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+	.sidebar__title {
+		font-size: 30px;
+	}
+
+	.sidebar__toggle p {
+		font-size: 14px;
+	}
+
+	.video__title {
+		font-size: 20px;
+	}
+
+	.additional p {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 876px) {
+	.sidebar__container {
+		width: 100%;
+	}
+	.sidebar__header {
+		padding-inline: 10px;
+	}
+	.sidebar__title {
+		font-size: 25px;
+	}
 }

@@ -5,7 +5,7 @@ import dislike from "../img/dislike.svg";
 import share from "../img/share.svg";
 import more from "../img/more.svg";
 
-import arrow from '../img/arrow.svg'
+import arrow from "../img/arrow.svg";
 
 function PlayerInfo() {
 	return (
@@ -29,7 +29,9 @@ function PlayerInfo() {
 							<img src={share} alt="share button" />
 							<p>Share</p>
 						</button>
-						<img src={more} alt="more icon" className="btns__item_more" />
+						<button className="btns__item">
+							<img src={more} alt="more icon" className="btns__item_more" />
+						</button>
 					</div>
 				</div>
 			</div>
